@@ -1,0 +1,8 @@
+require 'sinatra'
+require 'sinatra/activerecord'
+requrie './config/environments'
+
+get '/' do
+    "Hello, Adam!"
+end
+    
